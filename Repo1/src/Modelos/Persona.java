@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Modelos;
 
-/**
- *
- * @author laboratorio
- */
+
 public class Persona {
 
     public Persona(int cedula, String nombre, String apellido, String genero, int telefono, String email) {
@@ -18,6 +11,9 @@ public class Persona {
         this.genero = genero;
         this.telefono = telefono;
         this.email = email;
+    }
+
+    public Persona() {
     }
 
     public int getCedula() {
